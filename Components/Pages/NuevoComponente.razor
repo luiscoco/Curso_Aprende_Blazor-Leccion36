@@ -1,0 +1,14 @@
+﻿@page "/NuevoComponente"
+@inject IJSRuntime JSRuntime
+
+<h3>JS Interop Example</h3>
+
+<button @onclick="CallJSFunction">Show Alert</button>
+
+@code {
+    private async Task CallJSFunction()
+    {
+        // Call the JavaScript function 'showAlert' and pass a message
+        await JSRuntime.InvokeVoidAsync("showAlert", "Hello from Blazor!");
+    }
+}
