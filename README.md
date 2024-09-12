@@ -1,6 +1,6 @@
 # CURSO: APRENDE BLAZOR
 
-# LECCIÓN 35: Interoperatibilidad con JavaScript (InvokeVoidAsync)
+# LECCIÓN 36: Interoperatibilidad con JavaScript (InvokeVoidAsync)
 
 1. Abrir la aplicación con Visual Studio 2022 o VSCode
 
