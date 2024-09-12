@@ -49,6 +49,6 @@ function showAlert(message) {
          <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Nuevo Componente
      </NavLink>
  </div>
-'''
+```
 
 6. Ejecutamos la aplicación
